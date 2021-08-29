@@ -13,6 +13,9 @@ bgcolor="lightblue"
 }
 
 /* Toda la pagina siempre debe tener fondo negro */
+p{ 
+    color: white;
+}
 body {
     background-color:black;
 }
@@ -28,19 +31,20 @@ header {
     color: white;
 }
 
+/*
 a {
-    color: white;
+    color: black;
     border-color: chartreuse;
     border-style:dotted;
     border-width: 10px;
     /*background-color: black !important; Importante recordar que esto 
-    puede alterar elementos no deseados*/
-}
+    puede alterar elementos no deseados*
+}*/
 
-a:hover {
+/*a:hover {
     background-color: white;
 }
-
+*/
 #iniciar {
     color: white;
 }
@@ -64,6 +68,7 @@ ul, h2 {
     color: white;
 }
 
+
 .fa-cloud {
     color: red;
 }
@@ -72,6 +77,109 @@ body > header > i.fas.fa-car {
     scale: 120;
 }
 
+/*Para quitar el subrayado */
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+th,td{
+    padding: 30px;
+}
+
 /***************************************************/
 /*   Estilo del componente boton - fondo blanco   */
 /***************************************************/
+
+/***************************************************/
+/*   Estilo del componente boton - fondo blanco   */
+/***************************************************/
+.button1 {
+    
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background: linear-gradient(to bottom right, green, white);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+/***************************************************************/
+/*   Estilo del componente boton al poner el cursor sobre el   */
+/***************************************************************/
+.button1:hover {
+    background: linear-gradient(to bottom left, green, white);
+    padding: 12px 22px;
+    border: 1px white;
+    color: white;
+    
+
+}
+/***************************************************************/
+/*   Estilo del componente boton al pulsarlo   */
+/***************************************************************/
+.button1:active{
+    padding: 10px 20px;
+    background: green;
+}
+
+.button2 {
+    
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background: green;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 35px;
+    font-size: 14px;
+}
+/***************************************************************/
+/*   Estilo del componente boton al poner el cursor sobre el   */
+/***************************************************************/
+.button2:hover {
+    background: green;
+    padding: 12px 37px;
+    border: 1px white;
+    color: white;
+    box-shadow: 0px 0px 30px 0px white;
+}
+/***************************************************************/
+/*   Estilo del componente boton al pulsarlo   */
+/***************************************************************/
+.button2:active{
+    padding: 10px 35px;
+    background: green;
+}
+.button3 {
+    
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background: green;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 35px;
+    font-size: 14px;
+}
+/***************************************************************/
+/*   Estilo del componente boton al poner el cursor sobre el   */
+/***************************************************************/
+.button3:hover {
+    background: green;
+    padding: 13px 38px;
+    border: 1px black;
+    color: white;
+}
+/***************************************************************/
+/*   Estilo del componente boton al pulsarlo   */
+/***************************************************************/
+.button3:active{
+    padding: 10px 35px;
+    background: green;
+}
